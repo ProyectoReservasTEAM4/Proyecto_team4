@@ -13,16 +13,21 @@
      <nav class="navbar navbar-expand-lg">
         <div class="container">
             
-            <a class="navbar-brand text-white fw-bold" href="#">
-                Sistema de peliculas 
-            </a>
+
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                 <img src="image/cinepolis.png" alt="Logo" width="60" height="60" class="me-2 rounded-circle">
+                 <span class="text-white fw-bold fs-4">CinePolis</span>
+             </a>
+
             <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a class="nav-link text-white" href="home.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Nosotros</a></li>
+
+                    <li class="nav-item"><a class="nav-link text-white" href="nosotros.html">Nosotros</a></li>
+
                     <li class="nav-item"><a class="nav-link text-white" href="lista-peliculas.html">Películas</a></li>
                     <form class="d-flex ms-3 " role="search">
                         <input class="form-control bg-dark text-white border-secondary custom-search" 
@@ -53,11 +58,11 @@
 
     <section>
 
-       <div  class="paginacion align-items-center ">
-          <button id="btnSiguiente">Siguiente</button>
-          <button id="btnAnterior">Anterior</button>
-        </div>
-      
+      <div class="paginacion d-flex justify-content-center gap-2 mt-4">
+         <button id="btnAnterior" class="btn btn-outline-light">Anterior</button>
+         <button id="btnSiguiente" class="btn btn-outline-warning">Siguiente</button>
+      </div>
+
     </section>
 
     <div class="modal fade" id="carritoModal" tabindex="-1">
