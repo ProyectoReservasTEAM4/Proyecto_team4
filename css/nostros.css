@@ -1,0 +1,40 @@
+nav{
+    background-color:#111;
+}
+
+body {
+  margin:0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  
+  color:#eee;
+}
+
+
+
+.custom-search {
+  border-radius: 50px;     
+  padding: 0.3rem 1rem;    
+  font-size: 0.9rem;      
+  height: 36px;            
+}
+
+
+footer {
+  background: url("/image/the-sopranos-7ts1zau9jgwceq7t.webp");
+  background-size: cover;
+  color: white;
+  position: relative;
+  padding: 60px 0 30px;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #111;
+}
+
+footer .container {
+  position: relative;
+  z-index: 2;
+}
