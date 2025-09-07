@@ -169,6 +169,7 @@ p {
   content: "";
   position: absolute;
   inset: 0;
+  
   background: url("image/pokemon-christmas-o3imygo8dey9irum.webp") center/cover no-repeat; 
   z-index: 0;
   
