@@ -1,0 +1,253 @@
+nav{
+    background-color:#111;
+}
+
+.custom-search {
+  border-radius: 50px;     
+  padding: 0.3rem 1rem;    
+  font-size: 0.9rem;      
+  height: 36px;            
+}
+
+.carousel-item img {
+  height: 90vh; 
+  object-fit: cover;
+  filter: brightness(70%); 
+}
+
+.carousel-caption {
+  bottom: 20%;
+  left: 10%;
+  text-align: left;
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+}
+
+.carousel-caption h4 {
+  color: #facc15; 
+}
+
+.carousel-caption .btn {
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.carousel-item img {
+  height: 70vh; 
+  object-fit: cover;
+  filter: brightness(70%);
+}
+.section-card {
+  background-color:#111;
+  color: white;
+  height: 70vh
+}
+
+
+.custom-card {
+    min-height: 260px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 15px;
+    
+}
+.custom-card-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 60%, rgba(0,0,0,0.1) 100%);
+    z-index: 1;
+}
+.custom-card img {
+    z-index: 0;
+}
+.custom-card .p-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.custom-card .badge {
+    font-size: 0.7rem;
+    padding: 0.3em 0.6em;
+}
+.custom-card .fw-bold {
+    font-size: 1rem;
+}
+.custom-card .fs-5 {
+    cursor: pointer;
+}
+.section-card{
+    height: 100%;
+}
+.custom-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.custom-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 12px 32px rgba(97, 93, 79, 0.15), 0 2px 8px rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+body {
+  margin:0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  
+  color:#eee;
+}
+
+.section-card2 {
+  position:relative;
+  overflow:hidden;
+}
+
+.section-card2 .container {
+  position:relative;
+  z-index:2;
+}
+
+
+.three-canvas {
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  display:block;
+  z-index:1;
+  pointer-events:none; 
+}
+
+.section-overlay {
+  position:absolute; 
+  inset:0; 
+  z-index:1; 
+  
+  pointer-events:none;
+}
+
+h3.fw-bold {
+  color:#fff;
+}
+
+p {
+  color:#cbd5e1;
+  max-width:540px;
+}
+
+#stars-section {
+  position: relative;
+  overflow: hidden;
+  
+}
+#stars-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1;
+  
+}
+.section-overlay, .container {
+  position: relative;
+  z-index: 2;
+}
+
+.section-card2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-card2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/image/pokemon-christmas-o3imygo8dey9irum.webp") center/cover no-repeat; 
+  z-index: 0;
+  
+}
+
+footer {
+  background: url("/image/the-sopranos-7ts1zau9jgwceq7t.webp");
+  background-size: cover;
+  color: white;
+  position: relative;
+  padding: 60px 0 30px;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #111;
+}
+
+footer .container {
+  position: relative;
+  z-index: 2;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff4500;
+}
+
+.subscribe-input {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: white;
+  padding: 10px;
+  width: 70%;
+}
+
+.subscribe-input::placeholder {
+  color: #ddd;
+}
+
+.subscribe-btn {
+  border-radius: 8px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+}
+
+.bottom-bar {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin-top: 40px;
+  padding-top: 15px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #f5c400;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+}
